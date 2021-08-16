@@ -42,3 +42,5 @@ nmap <leader>w :wa<cr>
 nmap <leader>wq :wqa<cr>
 nmap <leader>tn :tabnew<cr>
 nmap <leader>tc :tabclose<cr>
+nmap <leader>cc :wa<bar>:!python3 solve.py<cr>
+nmap <leader>xx :wa <bar>:!cat solve.py <bar> xclip -selection clipboard<cr>
